@@ -1,69 +1,74 @@
-import { Dispatch } from 'redux';
-
-export const INCREMENT_REQUESTED = 'counter/INCREMENT_REQUESTED';
 export const INCREMENT = 'counter/INCREMENT';
-export const DECREMENT_REQUESTED = 'counter/DECREMENT_REQUESTED';
 export const DECREMENT = 'counter/DECREMENT';
 
+export const GET_REPOS = 'GET_REPOS';
+export const GET_REPOS_SUCCESS = 'GET_REPOS_SUCCESS';
+export const GET_REPOS_FAIL = 'GET_REPOS_FAIL';
+
 const initialState = {
-  count: 0,
-  isIncrementing: false,
-  isDecrementing: false
+	count: 0,
+
+	loading: false,
+	error: '',
+	repos: [],
 };
 
 export default (state = initialState, action: any) => {
-  switch (action.type) {
-    case INCREMENT_REQUESTED:
-      return {
-        ...state,
-        isIncrementing: true
-      };
+	switch (action.type) {
+		case INCREMENT:
+			return {
+				...state,
+				count: ++state.count,
+			};
 
-    case INCREMENT:
-      return {
-        ...state,
-        count: state.count + 1,
-        isIncrementing: !state.isIncrementing
-      };
+		case DECREMENT:
+			return {
+				...state,
+				count: --state.count,
+			};
 
-    case DECREMENT_REQUESTED:
-      return {
-        ...state,
-        isDecrementing: true
-      };
+		case GET_REPOS:
+			return { ...state, loading: true };
 
-    case DECREMENT:
-      return {
-        ...state,
-        count: state.count - 1,
-        isDecrementing: !state.isDecrementing
-      };
+		case GET_REPOS_SUCCESS:
+			console.log(action.payload.data);
+			return {
+				...state,
+				loading: false,
+				repos: action.payload.data
+			};
 
-    default:
-      return state;
-  }
+		case GET_REPOS_FAIL:
+			return {
+				...state,
+				loading: false,
+				error: 'Error al buscar los repositorios'
+			};
+
+		default:
+			return state;
+	}
 }
 
 export const increment = () => {
-  return (dispatch: Dispatch) => {
-    dispatch({
-      type: INCREMENT_REQUESTED
-    });
-
-    dispatch({
-      type: INCREMENT
-    });
-  }
+	return {
+		type: INCREMENT
+	}
 }
 
 export const decrement = () => {
-  return (dispatch: Dispatch) => {
-    dispatch({
-      type: DECREMENT_REQUESTED
-    });
+	return {
+		type: DECREMENT
+	}
+}
 
-    dispatch({
-      type: DECREMENT
-    });
-  }
+export function listRepos() {
+	return {
+		type: GET_REPOS,
+		payload: {
+			request: {
+				url: ''
+			}
+		}
+	};
 }

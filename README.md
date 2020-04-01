@@ -8,8 +8,10 @@
 - [React Router](https://github.com/ReactTraining/react-router/tree/master/packages/react-router)
 - [React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)
 - [Redux](https://es.redux.js.org/)
-- [Redux Thunk](https://github.com/reduxjs/redux-thunk)
+- [Axios](https://github.com/axios/axios)
+- [Axios Middleware](https://github.com/emileber/axios-middleware)
 - [Tailwind CSS](https://tailwindcss.com/)
+- [TypeScript](https://github.com/microsoft/TypeScript)
 
 ## Comandos
 
