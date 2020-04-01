@@ -3,6 +3,7 @@
 ## Paquetes:
 
 - [Connected React Router](https://github.com/supasate/connected-react-routerreac)
+- [Craco](https://github.com/gsoft-inc/craco)
 - [React Redux](https://github.com/reduxjs/react-redux)
 - [React Router](https://github.com/ReactTraining/react-router/tree/master/packages/react-router)
 - [React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)
