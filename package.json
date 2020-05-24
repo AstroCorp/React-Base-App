@@ -19,7 +19,7 @@
     "react": "^16.13.1",
     "react-redux": "^7.2.0",
     "react-router": "^5.2.0",
-    "react-router-dom": "^5.1.2",
+    "react-router-dom": "^5.2.0",
     "redux": "^4.0.5",
     "tailwindcss": "^1.3.5",
     "redux-axios-middleware": "^4.0.1",
