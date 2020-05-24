@@ -1175,10 +1175,10 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.3.4", "@babel/runtime@^7.4.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.4", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
-  version "7.9.2"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.9.2.tgz#d90df0583a3a252f09aaa619665367bae518db06"
-  integrity sha512-NE2DtOdufG7R5vnfQUTehdTfNycfUANEtCa9PssN9O/xmTzP4E08UI797ixaei6hBEVL9BI/PsdJS5x7mWoB9Q==
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.3.4", "@babel/runtime@^7.4.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.4", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2", "@babel/runtime@^7.9.6":
+  version "7.9.6"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.9.6.tgz#a9102eb5cadedf3f31d08a9ecf294af7827ea29f"
+  integrity sha512-64AF1xY3OAkFHqOb9s4jpgk1Mm5vDZ4L3acHvAml+53nO1XbXLuDodsVpO4OIUsmemlUHMxNdYMNJmsvOwLrvQ==
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -1600,10 +1600,10 @@
     dom-accessibility-api "^0.4.2"
     pretty-format "^25.1.0"
 
-"@testing-library/jest-dom@^5.5.0":
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/@testing-library/jest-dom/-/jest-dom-5.5.0.tgz#4707023e8f572021e8a84f65721303ff60828d88"
-  integrity sha512-7sWHrpxG4Yd8TmryI7Rtbx8Ff4mbs3ASye3oshQIuHvsCR+QHgr7rTR/PfeXvOmwUwR36wSTTAvrLKsPmr6VEQ==
+"@testing-library/jest-dom@^5.7.0":
+  version "5.7.0"
+  resolved "https://registry.yarnpkg.com/@testing-library/jest-dom/-/jest-dom-5.7.0.tgz#b2e2acb4c088a293d52ba2cd1674b526282a2f87"
+  integrity sha512-ZV0OtBXmTDEDxrIbqJXiOcXCZ6aIMpmDlmfHj0hGNsSuQ/nX0qPAs9HWmCzXvPfTrhufTiH2nJLvDJu/LgHzwQ==
   dependencies:
     "@babel/runtime" "^7.9.2"
     "@types/testing-library__jest-dom" "^5.0.2"
@@ -1624,10 +1624,12 @@
     "@testing-library/dom" "^7.1.0"
     "@types/testing-library__react" "^10.0.0"
 
-"@testing-library/user-event@^10.3.1":
-  version "10.3.1"
-  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-10.3.1.tgz#8ed6fbfa40fbb866fa4666c9a62d7f7ff151f93b"
-  integrity sha512-HozvWlr/xHmkoJrrDdZBbUOXAC/STAeXGyNU+g5KgEwWBpLJi1RPCHJKbTjwz8hp2jDFsk/jjfD0530eZjcFEg==
+"@testing-library/user-event@^10.3.5":
+  version "10.3.5"
+  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-10.3.5.tgz#4a47cdc0b2f41255a7140afbe4933b0e9483cf86"
+  integrity sha512-9Jg5pg12099EoOb4Z/+UNtCFpFIblD6INkgeWuV/AjUiYP+s/u6aYGPaLrUYioJ8duQ3V421B29GVE/3JELjCQ==
+  dependencies:
+    "@babel/runtime" "^7.9.6"
 
 "@types/babel__core@^7.1.0":
   version "7.1.3"
@@ -1737,10 +1739,10 @@
   resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
   integrity sha512-tHq6qdbT9U1IRSGf14CL0pUlULksvY9OZ+5eEgl1N7t+OA3tGvNpxJCzuKQlsNgCVwbAs670L1vcVQi8j9HjnA==
 
-"@types/node@*", "@types/node@^13.13.4":
-  version "13.13.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.13.4.tgz#1581d6c16e3d4803eb079c87d4ac893ee7501c2c"
-  integrity sha512-x26ur3dSXgv5AwKS0lNfbjpCakGIduWU1DU91Zz58ONRWrIKGunmZBNv4P7N+e27sJkiGDsw/3fT4AtsqQBrBA==
+"@types/node@*", "@types/node@^14.0.1":
+  version "14.0.1"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.1.tgz#5d93e0a099cd0acd5ef3d5bde3c086e1f49ff68c"
+  integrity sha512-FAYBGwC+W6F9+huFIDtn43cpy7+SzG+atzRiTfdp3inUKL2hXnd4rG8hylJLIh4+hqrQy1P17kvJByE/z825hA==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -1757,10 +1759,10 @@
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.2.tgz#690a1475b84f2a884fd07cd797c00f5f31356ea8"
   integrity sha512-ce5d3q03Ex0sy4R14722Rmt6MT07Ua+k4FwDfdcToYJcMKNtRVQvJ6JCAPdAmAnbRb6CsX6aYb9m96NGod9uTw==
 
-"@types/react-dom@*", "@types/react-dom@^16.9.7":
-  version "16.9.7"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.9.7.tgz#60844d48ce252d7b2dccf0c7bb937130e27c0cd2"
-  integrity sha512-GHTYhM8/OwUCf254WO5xqR/aqD3gC9kSTLpopWGpQLpnw23jk44RvMHsyUSEplvRJZdHxhJGMMLF0kCPYHPhQA==
+"@types/react-dom@*", "@types/react-dom@^16.9.8":
+  version "16.9.8"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.9.8.tgz#fe4c1e11dfc67155733dfa6aa65108b4971cb423"
+  integrity sha512-ykkPQ+5nFknnlU6lDd947WbQ6TE3NNzbQAkInC2EKY1qeYdTKp7onFusmYZb+ityzx2YviqT6BXSu+LyWWJwcA==
   dependencies:
     "@types/react" "*"
 
@@ -10749,10 +10751,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@~3.8.3:
-  version "3.8.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.8.3.tgz#409eb8544ea0335711205869ec458ab109ee1061"
-  integrity sha512-MYlEfn5VrLNsgudQTVJeNaQFUAI7DkhnOjdpAp4T+ku1TfQClewlbSuTVHiA+8skNBgaf02TL/kLOvig4y3G8w==
+typescript@~3.9.2:
+  version "3.9.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.2.tgz#64e9c8e9be6ea583c54607677dd4680a1cf35db9"
+  integrity sha512-q2ktq4n/uLuNNShyayit+DTobV2ApPEo/6so68JaD5ojvc/6GClBipedB9zNWYxRSAlZXAe405Rlijzl6qDiSw==
 
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"
