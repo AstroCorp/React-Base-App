@@ -18,3 +18,4 @@
 - **yarn start:** Inicia el modo desarrollo en el puerto 3000
 - **yarn test:** Ejecutar [tests](https://facebook.github.io/create-react-app/docs/running-tests)
 - **yarn build:** Compila para [producción](https://facebook.github.io/create-react-app/docs/deployment)
+- **yarn clean:** Elimina dist, node_modules y yarn.lock, limpia la caché de yarn y ejecuta yarn install
