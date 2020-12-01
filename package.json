@@ -32,7 +32,7 @@
     "@types/react-redux": "^7.1.11",
     "@types/react-router-dom": "^5.1.6",
     "@fullhuman/postcss-purgecss": "^3.0.0",
-    "react-scripts": "3.4.4",
+    "react-scripts": "4.0.1",
     "typescript": "^4.0.5"
   },
   "eslintConfig": {
