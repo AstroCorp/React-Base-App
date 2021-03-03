@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import { bindActionCreators, Dispatch } from 'redux';
 import { connect } from 'react-redux';
-import { increment, decrement, listRepos } from '../modules/counter';
+import { increment, decrement, listRepos } from '../store/actions/exampleActions';
 
 const Home = (props: any) => (
 	<div>
@@ -21,8 +21,8 @@ const Home = (props: any) => (
 	</div>
 );
 
-const mapStateToProps = ({ counter }: any) => ({
-	count: counter.count,
+const mapStateToProps = ({ exampleReducer }: any) => ({
+	count: exampleReducer.count,
 });
 
 const mapDispatchToProps = (dispatch: Dispatch) => bindActionCreators({

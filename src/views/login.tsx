@@ -18,8 +18,8 @@ const Login = (props: any) => {
 	);
 };
 
-const mapStateToProps = ({ counter }: any) => ({
-	count: counter.count,
+const mapStateToProps = ({ exampleReducer }: any) => ({
+	count: exampleReducer.count,
 });
 
 const mapDispatchToProps = (dispatch: Dispatch) => bindActionCreators({

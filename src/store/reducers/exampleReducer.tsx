@@ -1,9 +1,4 @@
-export const INCREMENT = 'counter/INCREMENT';
-export const DECREMENT = 'counter/DECREMENT';
-
-export const GET_REPOS = 'GET_REPOS';
-export const GET_REPOS_SUCCESS = 'GET_REPOS_SUCCESS';
-export const GET_REPOS_FAIL = 'GET_REPOS_FAIL';
+import { INCREMENT, DECREMENT, GET_REPOS, GET_REPOS_SUCCESS, GET_REPOS_FAIL } from '../actions/actionTypes';
 
 const initialState = {
 	count: 0,
@@ -13,7 +8,7 @@ const initialState = {
 	repos: [],
 };
 
-export default (state = initialState, action: any) => {
+const exampleReducer = (state = initialState, action: any) => {
 	switch (action.type) {
 		case INCREMENT:
 			return {
@@ -50,25 +45,4 @@ export default (state = initialState, action: any) => {
 	}
 }
 
-export const increment = () => {
-	return {
-		type: INCREMENT
-	}
-}
-
-export const decrement = () => {
-	return {
-		type: DECREMENT
-	}
-}
-
-export function listRepos() {
-	return {
-		type: GET_REPOS,
-		payload: {
-			request: {
-				url: ''
-			}
-		}
-	};
-}
+export default exampleReducer;
