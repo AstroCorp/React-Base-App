@@ -20,7 +20,7 @@
     "redux-axios-middleware": "^4.0.1"
   },
   "devDependencies": {
-    "@craco/craco": "^6.1.1",
+    "@craco/craco": "^6.2.0",
     "@tailwindcss/postcss7-compat": "^2.0.3",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
