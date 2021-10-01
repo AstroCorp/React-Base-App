@@ -32,7 +32,7 @@
     "@types/react-redux": "^7.1.18",
     "@types/react-router-dom": "^5.1.8",
     "@types/webpack-env": "^1.16.2",
-    "autoprefixer": "^9.8.6",
+    "autoprefixer": "^9.8.7",
     "postcss": "^7.0.36",
     "react-scripts": "4.0.3",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@2.2.10",
