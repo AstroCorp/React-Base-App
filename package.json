@@ -31,7 +31,7 @@
     "@types/react-dom": "^17.0.9",
     "@types/react-redux": "^7.1.18",
     "@types/react-router-dom": "^5.1.8",
-    "@types/webpack-env": "^1.16.2",
+    "@types/webpack-env": "^1.18.0",
     "autoprefixer": "^9.8.6",
     "postcss": "^7.0.36",
     "react-scripts": "4.0.3",
